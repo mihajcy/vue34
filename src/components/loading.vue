@@ -91,7 +91,8 @@
       <button
         type="button"
         class="btn"
-        @click="showModal">Создать пост</button>  
+        @click="showModal">Создать пост</button> 
+        <button>@click= "showModal">Кнопка< </button>
         <button @click="$router.push('/main')">Назад</button>
       <my-dialog v-show="isModalVisible" @close="closeModal">
         <template v-slot:content>
